@@ -1,7 +1,7 @@
-# Derived radial links for elliptical discriminant analysis
+# Closed-form fractional radial links for elliptical Mahalanobis discriminant analysis
 
 This folder is the standalone reproducibility package for the manuscript
-`Derived radial links for elliptical discriminant analysis`.
+`Closed-form fractional radial links for elliptical Mahalanobis discriminant analysis`.
 
 It contains the experiment runners, recorded JSON outputs, the Lean 4 proof
 scaffold, and the figure-generation script used by the article. The package is
