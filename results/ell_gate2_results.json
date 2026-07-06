@@ -1,0 +1,85 @@
+{
+  "seed": 2026,
+  "dgp": "xor-multimodal-t4",
+  "by_d": {
+    "d4": {
+      "acc_mean": {
+        "identity_qda": 0.5100666666666667,
+        "kunchenko": 0.49553333333333327,
+        "ghosh_global": 0.5666666666666667,
+        "kunchenko_hi": 0.5951333333333333,
+        "ghosh_full": 0.5726,
+        "oracle": 0.8417999999999999
+      },
+      "acc_sd": {
+        "identity_qda": 0.01863497309421784,
+        "kunchenko": 0.020155616807453182,
+        "ghosh_global": 0.02975604513745436,
+        "kunchenko_hi": 0.02192370609383571,
+        "ghosh_full": 0.019764614845728688,
+        "oracle": 0.008255906976220124
+      },
+      "budgets": {
+        "identity_qda": 2,
+        "kunchenko": 6,
+        "ghosh_global": 6,
+        "kunchenko_hi": 12,
+        "ghosh_full": 12
+      },
+      "ci": {
+        "kunchenko_hi - ghosh_full (local, equal budget)": [
+          0.0166,
+          0.0286
+        ],
+        "ghosh_full - ghosh_global (does local help?)": [
+          -0.0109,
+          0.024
+        ],
+        "kunchenko_hi - kunchenko (does local help frac?)": [
+          0.0871,
+          0.1115
+        ]
+      }
+    },
+    "d10": {
+      "acc_mean": {
+        "identity_qda": 0.5212000000000001,
+        "kunchenko": 0.5167333333333333,
+        "ghosh_global": 0.5318666666666667,
+        "kunchenko_hi": 0.6218666666666667,
+        "ghosh_full": 0.6128666666666667,
+        "oracle": 0.8469333333333334
+      },
+      "acc_sd": {
+        "identity_qda": 0.01632258149517616,
+        "kunchenko": 0.018255471021647807,
+        "ghosh_global": 0.019919393118823223,
+        "kunchenko_hi": 0.019057340376406745,
+        "ghosh_full": 0.017583578197347172,
+        "oracle": 0.012091135412175146
+      },
+      "budgets": {
+        "identity_qda": 2,
+        "kunchenko": 6,
+        "ghosh_global": 6,
+        "kunchenko_hi": 12,
+        "ghosh_full": 12
+      },
+      "ci": {
+        "kunchenko_hi - ghosh_full (local, equal budget)": [
+          0.0031,
+          0.0151
+        ],
+        "ghosh_full - ghosh_global (does local help?)": [
+          0.0693,
+          0.0929
+        ],
+        "kunchenko_hi - kunchenko (does local help frac?)": [
+          0.0917,
+          0.1181
+        ]
+      }
+    }
+  },
+  "elapsed_sec": 25.9
+}

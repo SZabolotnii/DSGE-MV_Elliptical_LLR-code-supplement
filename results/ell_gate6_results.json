@@ -1,0 +1,59 @@
+{
+  "setup": {
+    "nu": 8.0,
+    "a": 3.0,
+    "m": 3,
+    "ntr_per_class": 40,
+    "nte": 1000,
+    "reps": 12,
+    "dims": [
+      20,
+      60,
+      120,
+      200
+    ],
+    "scatter": "ridge-regularised per-class (G3.class_stats)"
+  },
+  "rows": [
+    {
+      "d": 20,
+      "ratio_d_over_n": 0.5,
+      "identity": 0.7395,
+      "kunchenko": 0.6949,
+      "ghosh": 0.672,
+      "identity_se": 0.0102,
+      "kunchenko_se": 0.0101,
+      "ghosh_se": 0.0135
+    },
+    {
+      "d": 60,
+      "ratio_d_over_n": 1.5,
+      "identity": 0.5205,
+      "kunchenko": 0.5132,
+      "ghosh": 0.6235,
+      "identity_se": 0.0115,
+      "kunchenko_se": 0.0084,
+      "ghosh_se": 0.0202
+    },
+    {
+      "d": 120,
+      "ratio_d_over_n": 3.0,
+      "identity": 0.5013,
+      "kunchenko": 0.5007,
+      "ghosh": 0.668,
+      "identity_se": 0.0012,
+      "kunchenko_se": 0.0006,
+      "ghosh_se": 0.0229
+    },
+    {
+      "d": 200,
+      "ratio_d_over_n": 5.0,
+      "identity": 0.5,
+      "kunchenko": 0.5,
+      "ghosh": 0.6308,
+      "identity_se": 0.0,
+      "kunchenko_se": 0.0,
+      "ghosh_se": 0.026
+    }
+  ]
+}

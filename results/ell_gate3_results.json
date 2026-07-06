@@ -1,0 +1,123 @@
+{
+  "seed": 2026,
+  "datasets": {
+    "wine": {
+      "n": 178,
+      "d": 13,
+      "C": 3,
+      "acc_mean": {
+        "qda": 0.9921587301587301,
+        "identity_md": 0.9651428571428571,
+        "kunchenko": 0.9752698412698413,
+        "ghosh_glob": 0.9752380952380952,
+        "kunchenko_gl": 0.9741269841269842,
+        "ghosh_full": 0.9729841269841271
+      },
+      "acc_sd": {
+        "qda": 0.01482801377263392,
+        "identity_md": 0.02909651535571402,
+        "kunchenko": 0.024324256168393496,
+        "ghosh_glob": 0.02432873044818531,
+        "kunchenko_gl": 0.02976349202116629,
+        "ghosh_full": 0.02580181067511323
+      },
+      "ci": {
+        "kunchenko - ghosh_glob (global, eq budget)": [
+          -0.0056,
+          0.0057
+        ],
+        "kunchenko_gl - ghosh_full (global+local, eq budget)": [
+          -0.0079,
+          0.0102
+        ],
+        "kunchenko - identity_md": [
+          0.0044,
+          0.0169
+        ],
+        "kunchenko - qda": [
+          -0.0272,
+          -0.0078
+        ]
+      }
+    },
+    "breast_cancer": {
+      "n": 569,
+      "d": 30,
+      "C": 2,
+      "acc_mean": {
+        "qda": 0.9641546343735444,
+        "identity_md": 0.900490607048595,
+        "kunchenko": 0.9588759509392952,
+        "ghosh_glob": 0.944101847539202,
+        "kunchenko_gl": 0.9367396367023754,
+        "ghosh_full": 0.8147678931842883
+      },
+      "acc_sd": {
+        "qda": 0.013352456456221766,
+        "identity_md": 0.026646460624302874,
+        "kunchenko": 0.016984035917976214,
+        "ghosh_glob": 0.01630253981435465,
+        "kunchenko_gl": 0.02134591651779654,
+        "ghosh_full": 0.03381994723343606
+      },
+      "ci": {
+        "kunchenko - ghosh_glob (global, eq budget)": [
+          0.0088,
+          0.0207
+        ],
+        "kunchenko_gl - ghosh_full (global+local, eq budget)": [
+          0.1094,
+          0.1357
+        ],
+        "kunchenko - identity_md": [
+          0.0471,
+          0.0693
+        ],
+        "kunchenko - qda": [
+          -0.0106,
+          0.0003
+        ]
+      }
+    },
+    "digits": {
+      "n": 1797,
+      "d": 64,
+      "C": 10,
+      "acc_mean": {
+        "qda": 0.9790748994119467,
+        "identity_md": 0.5435673166202415,
+        "kunchenko": 0.9548096564531106,
+        "ghosh_glob": 0.9565896007428043,
+        "kunchenko_gl": 0.9730653048591767,
+        "ghosh_full": 0.9733970906839988
+      },
+      "acc_sd": {
+        "qda": 0.005293386667186928,
+        "identity_md": 0.030133475378616728,
+        "kunchenko": 0.009176782100710315,
+        "ghosh_glob": 0.011095568876443761,
+        "kunchenko_gl": 0.007118423922203288,
+        "ghosh_full": 0.007314550280345592
+      },
+      "ci": {
+        "kunchenko - ghosh_glob (global, eq budget)": [
+          -0.0049,
+          0.0013
+        ],
+        "kunchenko_gl - ghosh_full (global+local, eq budget)": [
+          -0.0024,
+          0.0018
+        ],
+        "kunchenko - identity_md": [
+          0.4002,
+          0.4239
+        ],
+        "kunchenko - qda": [
+          -0.0277,
+          -0.0212
+        ]
+      }
+    }
+  },
+  "elapsed_sec": 974.6
+}

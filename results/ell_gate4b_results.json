@@ -1,0 +1,78 @@
+{
+  "seed": 2026,
+  "n": 9256,
+  "d": 5,
+  "embargo": 26,
+  "block": 21,
+  "B": 2000,
+  "results": {
+    "forward_chaining": {
+      "scheme": "forward-chaining expanding window + embargo",
+      "n_oos_test": 5010,
+      "folds_used": 5,
+      "acc_oos": {
+        "qda": 0.7622754491017965,
+        "identity_md": 0.7538922155688623,
+        "kunchenko": 0.7812375249500998,
+        "ghosh_glob": 0.7846307385229541
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.019,
+          "ci": [
+            -0.0038,
+            0.0419
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": -0.0034,
+          "ci": [
+            -0.0106,
+            0.0034
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0273,
+          "ci": [
+            0.0142,
+            0.0415
+          ]
+        }
+      }
+    },
+    "purged_kfold": {
+      "scheme": "purged-and-embargoed blocked 6-fold (isolates adjacency leakage)",
+      "n_oos_test": 9256,
+      "folds_used": 6,
+      "acc_oos": {
+        "qda": 0.8254105445116681,
+        "identity_md": 0.8137424373379429,
+        "kunchenko": 0.8291918755401901,
+        "ghosh_glob": 0.8087726879861711
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.0038,
+          "ci": [
+            -0.0096,
+            0.0177
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": 0.0204,
+          "ci": [
+            0.0151,
+            0.0269
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0154,
+          "ci": [
+            0.0042,
+            0.027
+          ]
+        }
+      }
+    }
+  }
+}

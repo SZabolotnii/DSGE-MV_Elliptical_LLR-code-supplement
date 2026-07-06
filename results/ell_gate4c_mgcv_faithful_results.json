@@ -1,0 +1,106 @@
+{
+  "seed": 2026,
+  "comparator": "faithful mgcv global MD-GAM (REML)",
+  "series": {
+    "CAD/USD": {
+      "heavy": true,
+      "acc": {
+        "kunchenko": 0.8292,
+        "ghosh_mdgam": 0.823,
+        "qda": 0.8254
+      },
+      "kun-ghosh_mdgam": [
+        0.0036,
+        0.009
+      ],
+      "kun-qda": [
+        -0.0103,
+        0.017
+      ]
+    },
+    "JPY/USD": {
+      "heavy": true,
+      "acc": {
+        "kunchenko": 0.7401,
+        "ghosh_mdgam": 0.7409,
+        "qda": 0.712
+      },
+      "kun-ghosh_mdgam": [
+        -0.0026,
+        0.001
+      ],
+      "kun-qda": [
+        0.0094,
+        0.0471
+      ]
+    },
+    "GBP/USD": {
+      "heavy": true,
+      "acc": {
+        "kunchenko": 0.7279,
+        "ghosh_mdgam": 0.7288,
+        "qda": 0.7207
+      },
+      "kun-ghosh_mdgam": [
+        -0.0037,
+        0.0022
+      ],
+      "kun-qda": [
+        -0.0079,
+        0.0224
+      ]
+    },
+    "WTI oil": {
+      "heavy": true,
+      "acc": {
+        "kunchenko": 0.7469,
+        "ghosh_mdgam": 0.745,
+        "qda": 0.7007
+      },
+      "kun-ghosh_mdgam": [
+        -0.0028,
+        0.0066
+      ],
+      "kun-qda": [
+        0.0226,
+        0.0687
+      ]
+    },
+    "S&P 500": {
+      "heavy": true,
+      "acc": {
+        "kunchenko": 0.7764,
+        "ghosh_mdgam": 0.7851,
+        "qda": 0.6954
+      },
+      "kun-ghosh_mdgam": [
+        -0.0246,
+        0.0072
+      ],
+      "kun-qda": [
+        0.0391,
+        0.1245
+      ]
+    },
+    "EUR/USD": {
+      "heavy": false,
+      "acc": {
+        "kunchenko": 0.7414,
+        "ghosh_mdgam": 0.7405,
+        "qda": 0.7429
+      },
+      "kun-ghosh_mdgam": [
+        -0.0011,
+        0.0031
+      ],
+      "kun-qda": [
+        -0.0155,
+        0.0133
+      ]
+    }
+  },
+  "summary": {
+    "heavy_derived_sig_worse_than_faithful": 0,
+    "heavy_ties": 4
+  }
+}

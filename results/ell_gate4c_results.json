@@ -1,0 +1,242 @@
+{
+  "seed": 2026,
+  "scheme": "purged-and-embargoed blocked 6-fold + moving-block bootstrap",
+  "d": 5,
+  "vol_win": 21,
+  "series": {
+    "CAD/USD": {
+      "asset_class": "FX",
+      "heavy": true,
+      "scheme": "purged blocked 6-fold",
+      "n_oos_test": 9256,
+      "folds_used": 6,
+      "acc_oos": {
+        "qda": 0.8254105445116681,
+        "identity_md": 0.8137424373379429,
+        "kunchenko": 0.8291918755401901,
+        "ghosh_glob": 0.8087726879861711
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.0038,
+          "ci": [
+            -0.0096,
+            0.0177
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": 0.0204,
+          "ci": [
+            0.0151,
+            0.0269
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0154,
+          "ci": [
+            0.0042,
+            0.027
+          ]
+        }
+      },
+      "excess_kurtosis": 9.33,
+      "n_pairs": 9256
+    },
+    "JPY/USD": {
+      "asset_class": "FX",
+      "heavy": true,
+      "scheme": "purged blocked 6-fold",
+      "n_oos_test": 9250,
+      "folds_used": 6,
+      "acc_oos": {
+        "qda": 0.712,
+        "identity_md": 0.7003243243243243,
+        "kunchenko": 0.7401081081081081,
+        "ghosh_glob": 0.7344864864864865
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.0281,
+          "ci": [
+            0.0089,
+            0.0472
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": 0.0056,
+          "ci": [
+            -0.0055,
+            0.0162
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0398,
+          "ci": [
+            0.0211,
+            0.0587
+          ]
+        }
+      },
+      "excess_kurtosis": 9.05,
+      "n_pairs": 9250
+    },
+    "GBP/USD": {
+      "asset_class": "FX",
+      "heavy": true,
+      "scheme": "purged blocked 6-fold",
+      "n_oos_test": 9254,
+      "folds_used": 6,
+      "acc_oos": {
+        "qda": 0.7206613356386428,
+        "identity_md": 0.7200129673654636,
+        "kunchenko": 0.7279014480224768,
+        "ghosh_glob": 0.7176356170304733
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.0072,
+          "ci": [
+            -0.0079,
+            0.0229
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": 0.0103,
+          "ci": [
+            0.0041,
+            0.0165
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0079,
+          "ci": [
+            -0.0056,
+            0.0213
+          ]
+        }
+      },
+      "excess_kurtosis": 6.9,
+      "n_pairs": 9254
+    },
+    "WTI oil": {
+      "asset_class": "commodity",
+      "heavy": true,
+      "scheme": "purged blocked 6-fold",
+      "n_oos_test": 6772,
+      "folds_used": 6,
+      "acc_oos": {
+        "qda": 0.7006792675723568,
+        "identity_md": 0.7291789722386296,
+        "kunchenko": 0.7468989958653278,
+        "ghosh_glob": 0.7310986414648553
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.0462,
+          "ci": [
+            0.0236,
+            0.0703
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": 0.0158,
+          "ci": [
+            0.0047,
+            0.0281
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0177,
+          "ci": [
+            0.0041,
+            0.0317
+          ]
+        }
+      },
+      "excess_kurtosis": 64.86,
+      "n_pairs": 6772
+    },
+    "S&P 500": {
+      "asset_class": "equity",
+      "heavy": true,
+      "scheme": "purged blocked 6-fold",
+      "n_oos_test": 1382,
+      "folds_used": 5,
+      "acc_oos": {
+        "qda": 0.695369030390738,
+        "identity_md": 0.723589001447178,
+        "kunchenko": 0.776410998552822,
+        "ghosh_glob": 0.7981186685962374
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": 0.081,
+          "ci": [
+            0.0376,
+            0.1259
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": -0.0217,
+          "ci": [
+            -0.0478,
+            0.0051
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0528,
+          "ci": [
+            0.0203,
+            0.0897
+          ]
+        }
+      },
+      "excess_kurtosis": 16.79,
+      "n_pairs": 1658
+    },
+    "EUR/USD": {
+      "asset_class": "FX",
+      "heavy": false,
+      "scheme": "purged blocked 6-fold",
+      "n_oos_test": 4574,
+      "folds_used": 6,
+      "acc_oos": {
+        "qda": 0.7428946217752515,
+        "identity_md": 0.7352426759947529,
+        "kunchenko": 0.7413642326191517,
+        "ghosh_glob": 0.7286838653257542
+      },
+      "ci": {
+        "kunchenko - qda": {
+          "mean_diff": -0.0015,
+          "ci": [
+            -0.0144,
+            0.0129
+          ]
+        },
+        "kunchenko - ghosh_glob": {
+          "mean_diff": 0.0127,
+          "ci": [
+            0.007,
+            0.0179
+          ]
+        },
+        "kunchenko - identity_md": {
+          "mean_diff": 0.0061,
+          "ci": [
+            -0.0055,
+            0.0179
+          ]
+        }
+      },
+      "excess_kurtosis": 2.51,
+      "n_pairs": 4574
+    }
+  },
+  "summary": {
+    "n_heavy": 5,
+    "derived_beats_fitted": 3,
+    "derived_beats_identity": 4,
+    "ties_qda": 2
+  }
+}

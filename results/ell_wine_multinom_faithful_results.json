@@ -1,0 +1,19 @@
+{
+  "seed": 2026,
+  "dataset": "wine",
+  "comparator": "true multinomial GAM (mgcv, fixed-df spline)",
+  "acc_mean": {
+    "kunchenko": 0.9753,
+    "qda": 0.9922,
+    "ghosh_multinom": 0.9696
+  },
+  "acc_sd": {
+    "kunchenko": 0.0243,
+    "qda": 0.0148,
+    "ghosh_multinom": 0.0391
+  },
+  "ci_kunchenko_minus_ghosh_multinom": [
+    -0.0079,
+    0.0192
+  ]
+}

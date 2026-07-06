@@ -1,0 +1,67 @@
+{
+  "seed": 2026,
+  "comparator": "faithful mgcv global MD-GAM (REML)",
+  "datasets": {
+    "wine": {
+      "n": 178,
+      "d": 13,
+      "acc_mean": {
+        "qda": 0.9921587301587301,
+        "identity_md": 0.9651428571428571,
+        "kunchenko": 0.9752698412698413,
+        "ghosh_mdgam": 0.9561269841269842
+      },
+      "acc_sd": {
+        "qda": 0.01482801377263392,
+        "identity_md": 0.02909651535571402,
+        "kunchenko": 0.024324256168393496,
+        "ghosh_mdgam": 0.04313579021041981
+      },
+      "ci": {
+        "kunchenko - ghosh_mdgam (FAITHFUL, global)": [
+          0.0068,
+          0.0329
+        ],
+        "kunchenko - identity_md": [
+          0.0044,
+          0.0169
+        ],
+        "kunchenko - qda": [
+          -0.0272,
+          -0.0078
+        ]
+      }
+    },
+    "breast_cancer": {
+      "n": 569,
+      "d": 30,
+      "acc_mean": {
+        "qda": 0.9641546343735444,
+        "identity_md": 0.900490607048595,
+        "kunchenko": 0.9588759509392952,
+        "ghosh_mdgam": 0.9599347927340475
+      },
+      "acc_sd": {
+        "qda": 0.013352456456221766,
+        "identity_md": 0.026646460624302874,
+        "kunchenko": 0.016984035917976214,
+        "ghosh_mdgam": 0.01610061057420785
+      },
+      "ci": {
+        "kunchenko - ghosh_mdgam (FAITHFUL, global)": [
+          -0.0053,
+          0.0032
+        ],
+        "kunchenko - identity_md": [
+          0.0471,
+          0.0693
+        ],
+        "kunchenko - qda": [
+          -0.0106,
+          0.0003
+        ]
+      }
+    }
+  },
+  "elapsed_sec": 44.9
+}
