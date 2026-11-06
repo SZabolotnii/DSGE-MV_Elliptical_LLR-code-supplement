@@ -41,6 +41,18 @@ python run_ell_gate4c_mgcv_faithful.py
 python run_ell_wine_multinom_faithful.py
 ```
 
+Numerical checks added in v2 (Corollary on the QDA risk floor, first-stage
+correction and heavy-tailed sandwich remark after the CLT theorem; Appendix B):
+
+```bash
+cd code
+python check_cor_dichotomy.py       # seed 20261105 -> check_cor_dichotomy.json
+python check_thm_clt.py             # seed 20261105 -> check_thm_clt.json
+python check_thm_clt_nsweep.py      # seed 20261106 -> check_thm_clt_nsweep.json
+python check_thm_clt_diag.py        # seed 20261107 -> check_thm_clt_diag.json
+python check_thm_clt_truegamma.py . # seed 20261108, prints to stdout
+```
+
 Regenerate manuscript figures from recorded results:
 
 ```bash
